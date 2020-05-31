@@ -1,0 +1,52 @@
+body {
+  background: 
+    url(https://sun9-65.userapi.com/c855732/v855732770/231a94/PKX6EDpJlqw.jpg);
+  background-size: cover, 100% 100%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+h1 {
+  font-family: "Muli", sans-serif;
+  font-size: 35pt;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+#img-div {
+  background: #FFFFF0;
+  padding: 20px;
+  margin: 0 20px 70px 20px;;
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.35);
+}
+#img-caption {
+  margin: 10px 0 0 0;
+}
+ul {
+  display: table;
+  margin: 0 auto;
+  max-width: 600px;
+}
+li {
+  margin: 15px 0;
+  text-align: left;
+}
+blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+a {
+  color: #2F4F4F;
+}
+a:hover {
+  font-style: strong;
+}
