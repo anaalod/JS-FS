@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class = "container">
+      <div id = "text">
+        <h1 id = "title">|| Electronic et ol Survey Form</h1>
+        <p id = "description">Tell us about yourself and we will select music specifically for you
+        </p>
+      </div>
+      <form id = "survey-form">
+        <div class = "qq">
+          <label id = "name-label" 
+                 for = "name">Name:</label><br>
+        </div>
+        <input type = "text" 
+               id = "name"
+               placeholder = "Enter your name"
+               required><br>
+      
+        <div class = "qq">
+          <label id = "email-label" 
+                 for = "email">Email:</label><br>
+        </div>
+        <input type = "email" 
+               id = "email"
+               placeholder = "Enter your email"
+               required><br>
+      
+        <div class = "qq">
+          <label id = "number-label" 
+                 for = "number">Age:</label><br>
+        </div>
+        <input type = "number" 
+               id = "number"
+               placeholder = "Age"
+               min = "7"
+               max = "99"><br>
+      
+        <div class = "qq">
+          <label for = "dropdown">What pace of music do you prefer?</label><br>
+        </div>
+        <select id = "dropdown">
+          <option disabled selected value>Select</option>
+          <option value = "1">Slow & smooth</option>
+          <option value = "2">Fast & energetic</option>
+          <option value = "3">Mixed</option>
+          <option value = "other">No matter</option>
+        </select><br>
+      
+        <div class = "qq">
+          <p>Do you like vocals in music?</p>
+          <label><input type = "radio"
+                        name = "vocal"
+                        value = "yes"/>Yes, of course</label><br>
+          
+          <label><input type = "radio"                 
+                        name = "vocal"
+                        value = "no"/>No</label><br>
+          
+          <label><input type = "radio"  
+                        name = "vocal"
+                        value = "perhaps"/>Perhaps</label><br>
+        </div>
+        
+        <div class = "qq">
+          <p>Choose your preferred genres (one or more):</p>
+          <input type = "checkbox" 
+                 id = "box1" 
+                 value = "ambient" 
+                 name = "genres">
+          <label for = "box1">Ambient</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box2" 
+                 value = "bass"
+                 name = "genres">
+          <label for = "box2">Bass music</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box3" 
+                 value = "disco"
+                 name = "genres">
+          <label for = "box3">Disco (Nu-disco)</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box4" 
+                 value = "downtempo"
+                 name = "genres">
+          <label for = "box4">Downtempo</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box5" 
+                 value = "dnb"
+                 name = "genres">
+          <label for = "box5">Drum & bass</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box6" 
+                 value = "dub"
+                 name = "genres">
+          <label for = "box6">Dub</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box7" 
+                 value = "hiphop"
+                 name = "genres">
+          <label for = "box7">Hip hop</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box8" 
+                 value = "house"
+                 name = "genres">
+          <label for = "box8">House</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box9" 
+                 value = "techno"
+                 name = "genres">
+          <label for = "box9">Techno</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box10" 
+                 value = "trance"
+                 name = "genres">
+          <label for = "box10">Trance</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box11" 
+                 value = "idm"
+                 name = "genres">
+          <label for = "box11">IDM</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box12" 
+                 value = "ethnic"
+                 name = "genres">
+          <label for = "box12">Ethnic</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box13" 
+                 value = "postrock"
+                 name = "genres">
+          <label for = "box13">Post-rock</label><br>
+          
+          <input type = "checkbox" 
+                 id = "box14" 
+                 value = "experimental"
+                 name = "genres">
+          <label for = "box14">Experimental</label><br>
+        </div>
+        
+        <div class = "qq">
+          <p>Any comments or suggestions?</p>
+        </div>
+        <textarea id = "comment"
+                  name = "comment"
+                  placeholder = "Your comment...">
+        </textarea><br>
+      
+        <input type = "submit" id = "submit" value = "Submit">  
+      </form>
+    </div>
+  </body>
+</html>
