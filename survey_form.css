@@ -1,0 +1,71 @@
+body {
+  background:
+    url(https://sun9-25.userapi.com/c857032/v857032452/1ab5c0/ldBFmvX1fII.jpg);
+  background-size: cover, 100% 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+}
+
+form {
+  width: 800px;
+  max-width: 90%;
+  background: RGBA(0, 0, 0, 0.7);
+  padding: 0.5rem;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+#text {
+  background: RGBA(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.qq {
+  text-align: left;
+  padding: 0 35px;
+}
+
+input[type = text],
+input[type = number],
+input[type = email],
+select {
+  width: 90%;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #696969;
+  font-size: 16px;
+}
+
+option {
+  color: #000000;
+}
+
+input[type = submit] {
+  width: 50vw;
+  height: 2.7vw;
+  margin: 30px 0;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #E6E8E6;
+  font-weight: bolder;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #000000;
+}
